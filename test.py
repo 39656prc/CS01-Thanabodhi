@@ -1,4 +1,7 @@
-for i in range(18):
-    for j in range(18):
-        print(min(i,j,17-i,17-j),end="")
-    print()
+x = int(input())
+if (x <= 10):
+    print("ไม่ผ่าน")
+elif (x <= 20):
+    print("ปรับปรุง")
+elif (x <= 30):
+    print("ดีมาก")
