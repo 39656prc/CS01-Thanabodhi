@@ -18,4 +18,4 @@ elif (scr >= 50):
     grade = "D"
 elif (scr >= 0):
     grade = "F"
-print(grade)
+print("Your grade is",grade)
