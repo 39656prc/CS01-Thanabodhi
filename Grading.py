@@ -1,0 +1,21 @@
+a = int(input("Enter Score 1: "))
+b = int(input("Enter Score 2: "))
+c = int(input("Enter Score 3: "))
+scr = a+b+c
+if (scr >= 80):
+    grade = "A"
+elif (scr >= 75):
+    grade = "B+"
+elif (scr >= 70):
+    grade = "B"
+elif (scr >= 65):
+    grade = "C+"
+elif (scr >= 60):
+    grade = "C"
+elif (scr >= 55):
+    grade = "D+"
+elif (scr >= 50):
+    grade = "D"
+elif (scr >= 0):
+    grade = "F"
+print(grade)
